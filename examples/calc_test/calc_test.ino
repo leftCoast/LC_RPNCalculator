@@ -6,7 +6,12 @@
 // You will have to read calculator.cpp to see what the buttons need to send.
 // https://github.com/leftCoast/LC_RPNCalculator/blob/main/calculator.cpp
 //
-
+// For example 5 x 23?
+// 5
+// enter
+// 23
+// x
+//
 calculator  myCalculator;  // There you have one.
 serialStr   serialMgr;     // This one read the serial port.
 char*       btnTxt;        // Our global that holds the incoming button text.
